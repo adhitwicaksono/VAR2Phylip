@@ -8,7 +8,7 @@ authors:
 version: 0.1.0-alpha
 date-released: 2026-10-04
 license: GPL-3.0-only
-repository-code: "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip"
+repository-code: "https://github.com/adhitwicaksono/VAR2Phylip"
 abstract: >-
   VAR2Phylip is a bioinformatics toolkit for direct conversion of compact
   genomic variant and alignment representations into phylogenetic character
