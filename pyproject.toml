@@ -38,9 +38,9 @@ bcf = ["pysam>=0.22"]
 dev = ["pytest>=8"]
 
 [project.urls]
-Homepage = "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip"
-Repository = "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip"
-Issues = "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip/issues"
+Homepage = "https://github.com/adhitwicaksono/VAR2Phylip"
+Repository = "https://github.com/adhitwicaksono/VAR2Phylip"
+Issues = "https://github.com/adhitwicaksono/VAR2Phylip/issues"
 
 [tool.setuptools]
 packages = ["var2phylip"]
