@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "var2phylip"
+version = "0.1.0a0"
+description = "Direct conversion of compact genomic variant and alignment representations into phylogenetic matrices."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "GPL-3.0-only"}
+authors = [
+  {name = "Adhityo Wicaksono"}
+]
+keywords = [
+  "bioinformatics",
+  "phylogenetics",
+  "BCF",
+  "PAF",
+  "PHYLIP",
+  "comparative genomics"
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+
+# Keep dependencies minimal until the package API is frozen.
+# BCF2Phylip will require pysam/HTSlib.
+dependencies = []
+
+[project.optional-dependencies]
+bcf = ["pysam>=0.22"]
+dev = ["pytest>=8"]
+
+[project.urls]
+Homepage = "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip"
+Repository = "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip"
+Issues = "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip/issues"
+
+[tool.setuptools]
+packages = ["var2phylip"]

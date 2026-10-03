@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use VAR2Phylip, please cite the repository version used and the upstream software relevant to your workflow."
+title: "VAR2Phylip"
+type: software
+authors:
+  - family-names: Wicaksono
+    given-names: Adhityo
+version: 0.1.0-alpha
+date-released: 2026-10-04
+license: GPL-3.0-only
+repository-code: "https://github.com/REPLACE_WITH_OWNER/VAR2Phylip"
+abstract: >-
+  VAR2Phylip is a bioinformatics toolkit for direct conversion of compact
+  genomic variant and alignment representations into phylogenetic character
+  matrices. Initial modules include BCF2Phylip and PAF2Phylip.
+keywords:
+  - bioinformatics
+  - phylogenetics
+  - BCF
+  - PAF
+  - PHYLIP
+  - variant calling
+  - comparative genomics
+references:
+  - type: software
+    title: "VCF2Phylip"
+    authors:
+      - family-names: Ortiz
+        given-names: Edgardo M.
+    repository-code: "https://github.com/edgardomortiz/vcf2phylip"
+    doi: "10.5281/zenodo.2540861"

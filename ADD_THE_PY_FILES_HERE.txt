@@ -1,0 +1,6 @@
+Add the prototype scripts later as:
+
+scripts/BCF2Phylip.py
+scripts/PAF2Phylip.py
+
+Do not place them at repository root unless you intentionally want a flat layout.
